@@ -1,3 +1,4 @@
+#Haskell
 dist
 cabal-dev
 *.o
@@ -14,3 +15,10 @@ cabal.sandbox.config
 *.aux
 *.hp
 .stack-work/
+
+#Python
+__pycache__
+*.pyc
+
+#Sqlite3 (at least temporarily)
+db.sqlite3
